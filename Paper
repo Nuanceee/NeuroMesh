@@ -1,0 +1,146 @@
+Overview
+NEUROMESH is a revolutionary federated learning platform that enables healthcare institutions to collaboratively train Al models while maintaining complete data privacy. Built on the Hedera blockchain, ti ensures secure, consensus-driven model updates without exposing sensitive patient data.
+Key Features
+• E Privacy-First: Patient data never leaves the local hospital
+• & Encrypted Updates: Al model updates are encrypted before blockchain submission • $8 Hedera Integration: Leverages Hedera Consensus Service for trust and transparency • ® Federated Learning: Colaborative Al training across multiple institutions
+• l Real-time Monitoring: Live dashboard for training progress and network status
+• E Consensus-based: Democratic model aggregation through blockchain consensus
+
+ Demo Access
+Visit the live demo: NEUROMESH Demo
+上Arch it ect ur e
+HospitalA
+LocalDataset PrivateTrain
+H o s p i t a lB
+LocalD a t a s e t PrivateT r a i n
+HospitalC |
+L o c a lD a t a s e t PrivateTrain
+Encrypted Updates | Encrypted Updates | Encrypted Updates
+HederaBlockchain • ConsensusServicel
+-
+Transaction Log
+- Model Aggregation
+Global Model
+FederatedAverage Distributed t o All
+
+ Repository Structure
+neuromesh/
+- READMEm.d
+— LICENSE —packagejson
+— gitignore docs/
+-ARCHITECTURE.md - APl.md|
+- DEPLOYMENT.md
+-index.html - styles/|
+-main.css scripts/
+- neuromesh,js -blockchains
+•cryptojs assets/
+images/ smart-contracts/
+FederatedLearning sol ModelRegistry.sol
+backend/
+- serverjs| - routes/|
+-models/ tests/
+-unit/
+- integration/ •deployment/
+
+ 1 Technology Stack Frontend
+• HTMLS/CSS3/JavaScript - Core web technologies • Chartjs - Data visualization
+• Web3.js - Blockchain interaction
+Blockchain
+• Hedera Hashgraph - Distributed ledger
+• Hedera Consensus Service - Message ordering and timestamping • Smart Contracts - Automated model aggregation
+Backend (Optional)
+• Node.js - Server runtime
+• Express.js - Web framework
+• TensorFlow.js - Machine learning
+ Use Cases
+Healthcare Networks
+• Multi-hospital disease prediction models • Drug discovery collaborations
+• Medical imaging analysis
+• Epidemic monitoring systems
+Research Institutions
+• Cross-institutional research projects • Collaborative clinical trials
+• Population health studies
+Regulatory Compliance
+• HIPAA-compliant Al training
+• GDPR-compliant data processing • Audit-ready blockchain records
+
+i Privacy &Security
+Data Protection
+• Zero Data Sharing: Rwa data never leaves local nodes
+• Diferential Privacy: Statistical privacy guarantees
+• Homomorphic Encryption: Computation on encrypted data
+• Secure Multi-party Computation: Privacy-preserving protocols
+Blockchain Security
+• Hedera Security: Byzantine fault tolerance
+• Consensus Verification: Cryptographic proof of updates • Immutable Audit Trail: Tamper-proof transaction history • Aces Control: Permision-based participation
+ 2 Performance Metrics Metric
+Training Sped
+Data Privacy
+Newtork Scalability
+Consensus Tmie Model Acuracy
+* Development Running Tests
+bash
+• Run ol tests npmtest
+# Run specific test suite p mruntestunit
+npm run testintegration
+Building for Production
+bash
+# Build optimized version mpm run build
+# Deploy to GitHub Pages npm run deploy
+Value
+x3 faster
+than centralized 10% local retention
+10,0 +nodes supported <3 seconds
+%5.89 (average)
+
+ Smart Contract Deployment
+• DeploytoHederatestnet
+n p m run deploy.contracts.testnet
+• DeploytoHederamainnet
+n p m run deploy.contracts.mainnet
+* Deployment Options GitHub Pages (Demo)
+bash
+p mrundeploy.gh-pages
+Docker Container
+bash
+docker-compose u p - d
+Kubernetes Cluster
+bash
+kubecti apply -f deployment/kubernetes/
+Cloud Platforms
+• AWS: CloudFormation templates included
+• Azure: ARM templates available
+• GCP: Deployment manager configs provided
+Contributing
+We welcome contributions! Please se our Contributing Guidelines.
+.1Fork the repository
+.2Createyourfeaturebranch gitcheckoutb-feature/amazing-feature 3. Commti your changes (git commitm- A' d amazing feature'
+4. Push ot hte branch (git push origin feature/amazing-feature .5Open aPul Request
+Development Guidelines
+• Folw SELnit configuration
+• Ad tests for new features
+• Update documentation
+• Ensure blockchain compatibility
+
+ ll Roadmap
+Phase :1 Foundation M
+Core federated learning demo • Hedera blockchain integration
+Web-based dashboard Basic encryption
+Phase 2: Enhancement G
+Advanced cryptography Smart contract automation
+Mobile app support Advanced analytics
+Phase :3 Production @
+Enterprise deployment Multi-chain support Advanced privacy features
+Regulatory certifications
+License
+Thsi project si licensed under hte MTI License - se hte LCIENSE file for details.
+A Acknowledgments
+• Hedera Hashgraph ofr blockchain infrastructure • TensorFlow for machine learning frameworks
+• Healthcare partners ofr use case validation
+• Open source community ofr continuous suport
+& Support &Contact
+• Documentation: docs.neuromeshai • Discord: elni our community.
+• Ema:li support@neuromesh.ai
+• Twiter: @neuromeshai
+Star History Show image
+Built with & for the future of privacy-preserving Al
