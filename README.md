@@ -1,3 +1,5 @@
+Disclaimer: Neuromesh is currently a proof-of-concept prototype. The platform demonstrates the core functionality of decentralized AI and blockchain integration but should not be used with real patient data in production.
+
 Key Features
 	•	Decentralized AI Training: Each node trains models locally on private datasets.
 	•	Data Privacy: Patient data never leaves the source; only encrypted model updates are shared.
